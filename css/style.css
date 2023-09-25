@@ -31,6 +31,10 @@ h2
 {
     font-size: 2.5em;
 }
+.h2-small
+{
+    font-size: 1.3em;
+}
 h3
 {
     font-size: 1.7em;
@@ -97,6 +101,14 @@ body
 .txt-light
 {
     color: var(--color-light-color);
+}
+.maiusc
+{
+    text-transform: uppercase;
+}
+.fs
+{
+    font-size: 1.3em;
 }
 /* buttons */
 .btn
