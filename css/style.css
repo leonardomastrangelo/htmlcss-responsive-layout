@@ -243,6 +243,19 @@ main
 /* MEDIA QUERY */
 @media screen and (min-width:992px)
 {
+    nav ul
+    {
+        display: block;
+        list-style: none;
+    }
+    nav a
+    {
+        text-decoration: none;
+    }
+    .fa-solid.fa-bars
+    {
+        display: none;
+    }
     .d-flex
     {
         display:flex;
@@ -265,4 +278,24 @@ main
         width: calc(100% / 2);
     }
     
+}
+@media screen and (min-width:1200px){
+    .container
+    {
+        max-width: 1140px;
+        margin: 0 auto;
+    }
+    #planning .container
+    {
+        display: flex;
+    }
+    #planning .card
+    {
+        width: 50%;  
+    }
+    #benefits .card 
+    {
+        width: calc(100% / 3);
+    }
+
 }
