@@ -20,7 +20,7 @@
 /* general */
 section
 {
-    margin: 50px 0 0 0;
+    padding: 70px 0
 }
 .container
 {
@@ -113,6 +113,10 @@ body
 {
     color: var(--color-light-color);
 }
+.txt-dark
+{
+    color: var(--color-text);
+}
 .maiusc
 {
     text-transform: uppercase;
@@ -125,9 +129,18 @@ body
 .btn
 {
     text-decoration: none;
-    padding: 10px 20px;
+    padding: 10px 50px;
     font-size: 1.3em;
     letter-spacing: 0.2em;
+}
+.btn-little
+{
+    padding: 7px 14px;
+}
+.btn-big
+{
+    padding: 20px 90px;
+    text-decoration: none;
 }
 /* spacing */
 .px-10
@@ -173,6 +186,7 @@ body
 {
     margin-bottom: 10px;
 }
+
 /*
     HEADER
 */
@@ -203,13 +217,12 @@ nav ul
     display: none;
 }
 
-
 /* 
-MAIN
+    MAIN
 */
 main
 {
-    margin-top: 110px;
+    margin-top: 40px;
 }
 .image
 {
@@ -227,8 +240,6 @@ main
     height: 250px;
     object-fit: cover;
 }
-
-
 .down
 {
     width: 60px;
@@ -237,11 +248,18 @@ main
     display: flex;
     align-items: center;
     justify-content: center;
-    color: var(--color-dark-color);
 }
-.fa-solid.fa-arrow-down-long
+#about-us .profile div:first-child
 {
-    color: var(--color-dark-color);
+    position: relative;
+}
+.fa-solid.fa-quote-left
+{
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: 1;
+    font-size: 5em;
 }
 #action
 {
