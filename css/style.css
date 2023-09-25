@@ -331,6 +331,7 @@ main
         max-width: 1140px;
         margin: 0 auto;
     }
+    #intro .col:first-child .card,
     #planning .container
     {
         display: flex;
