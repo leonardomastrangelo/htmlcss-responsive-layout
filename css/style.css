@@ -176,6 +176,11 @@ main
     position: relative;
     top: 30px;
 }
+.icon
+{
+    font-size: 6em;
+    color: var(--color-secondary-color);
+}
 
 /* 
 FOOTER
