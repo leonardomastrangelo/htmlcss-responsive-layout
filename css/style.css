@@ -325,6 +325,7 @@ main
     }
     
 }
+
 @media screen and (min-width:1200px){
     .container
     {
@@ -335,6 +336,10 @@ main
     #planning .container
     {
         display: flex;
+    }
+    .image
+    {
+        top: 71px;
     }
     #planning .card
     {
