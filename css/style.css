@@ -1,0 +1,138 @@
+/* palette */
+:root {
+	--color-secondary-color: #0084FD;
+	--color-dark-color: #333333;
+	--color-light-color: #FFFFFF;
+	--color-primary-color: #9792E4;
+	--color-bg-card: #B5DDFF;
+	--color-contrast-color: #FCC060;
+	--color-text: #424242;
+}
+
+/* reset */
+*
+{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+/* general */
+.container
+{
+    padding: 5px;
+}
+.fluid
+{
+    width: 100%;
+}
+.col
+{
+    padding: 10px;
+}
+/* 
+    UTILITIES
+*/
+/* borders */
+.br-small
+{
+    border-radius: 10px;
+}
+.br-big
+{
+    border-radius: 20px;
+}
+.br-circle
+{
+    border-radius: 50%;
+}
+/* backgrounds */
+.bg-light
+{
+    background-color: var(--color-light-color);
+}
+.bg-intro
+{
+    background-color: var(--color-bg-card);
+}
+.bg-primary
+{
+    background-color: var(--color-primary-color);
+}
+.bg-secondary
+{
+    background-color: var(--color-secondary-color);
+}
+.bg-dark
+{
+    background-color: var(--color-dark-color);
+}
+/* texts */
+body
+{
+    font-family: 'PT Sans', sans-serif;
+    color: var(--color-text);
+}
+.txt-center
+{
+    text-align: center;
+}
+.line-h
+{
+    line-height: 2em;
+}
+.txt-primary
+{
+    color: var(--color-primary-color);
+}
+.txt-secondary
+{
+    color: var(--color-secondary-color);
+}
+.txt-light
+{
+    color: var(--color-light-color);
+}
+/* spacing */
+.px-10
+{
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.py-10
+{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.px-20
+{
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.py-20
+{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+/*
+    HEADER
+*/
+#logo
+{
+    width: 70px;
+}
+nav ul
+{
+    display: none;
+}
+
+
+/* 
+MAIN
+*/
+
+
+/* 
+FOOTER
+*/
+
