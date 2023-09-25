@@ -27,6 +27,10 @@
     width: 100%;
     display: block;
 }
+h2
+{
+    font-size: 2.5em;
+}
 h3
 {
     font-size: 1.7em;
@@ -37,11 +41,11 @@ h3
 /* borders */
 .br-small
 {
-    border-radius: 10px;
+    border-radius: 20px;
 }
 .br-big
 {
-    border-radius: 20px;
+    border-radius: 60px;
 }
 .br-circle
 {
@@ -133,6 +137,11 @@ body
     padding-top: 30px;
     padding-bottom: 30px;
 }
+.py-50
+{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
 /*
     HEADER
 */
@@ -180,6 +189,20 @@ main
 {
     font-size: 6em;
     color: var(--color-secondary-color);
+}
+.down
+{
+    width: 60px;
+    height: 60px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--color-dark-color);
+}
+.fa-solid.fa-arrow-down-long
+{
+    color: var(--color-dark-color);
 }
 
 /* 
