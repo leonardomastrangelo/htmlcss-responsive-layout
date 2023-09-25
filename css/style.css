@@ -118,7 +118,7 @@ body
 .btn
 {
     text-decoration: none;
-    padding: 10px 80px;
+    padding: 10px 20px;
     font-size: 1.3em;
     letter-spacing: 0.2em;
 }
@@ -240,7 +240,29 @@ main
     vertical-align: middle;
 }
 
-/* 
-FOOTER
-*/
-
+/* MEDIA QUERY */
+@media screen and (min-width:992px)
+{
+    .d-flex
+    {
+        display:flex;
+        flex-flow:row wrap;
+    }
+    #intro .card
+    {
+        height: 100%;
+    }  
+    #intro .col
+    {
+        width: calc(100% / 3);
+    } 
+    #intro .col:first-child
+    {
+        width: calc((100% / 3) * 2);
+    }
+    #benefits .card 
+    {
+        width: calc(100% / 2);
+    }
+    
+}
