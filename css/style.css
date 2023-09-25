@@ -46,6 +46,13 @@ h3
 /* 
     UTILITIES
 */
+/* aligning */
+.a-center
+{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
 /* borders */
 .br-small
 {
@@ -214,6 +221,14 @@ main
     font-size: 6em;
     color: var(--color-secondary-color);
 }
+.profile img
+{
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+}
+
+
 .down
 {
     width: 60px;
@@ -276,6 +291,19 @@ main
     #benefits .card 
     {
         width: calc(100% / 2);
+    }
+    .cit
+    {
+        width: calc(100% - 250px);
+        padding: 0 20px;
+    }
+    #about-us .card:first-child
+    {
+        width: 65%;
+    }
+    #about-us .card:last-child
+    {
+        width: 35%;
     }
     
 }
