@@ -25,10 +25,11 @@
 .fluid
 {
     width: 100%;
+    display: block;
 }
-.col
+h3
 {
-    padding: 10px;
+    font-size: 1.7em;
 }
 /* 
     UTILITIES
@@ -93,6 +94,14 @@ body
 {
     color: var(--color-light-color);
 }
+/* buttons */
+.btn
+{
+    text-decoration: none;
+    padding: 10px 80px;
+    font-size: 1.3em;
+    letter-spacing: 0.2em;
+}
 /* spacing */
 .px-10
 {
@@ -113,6 +122,16 @@ body
 {
     padding-top: 20px;
     padding-bottom: 20px;
+}
+.px-30
+{
+    padding-left: 30px;
+    padding-right: 30px;
+}
+.py-30
+{
+    padding-top: 30px;
+    padding-bottom: 30px;
 }
 /*
     HEADER
@@ -151,6 +170,11 @@ MAIN
 main
 {
     margin-top: 110px;
+}
+.image
+{
+    position: relative;
+    top: 30px;
 }
 
 /* 
